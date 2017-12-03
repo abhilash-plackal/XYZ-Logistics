@@ -32,3 +32,9 @@ APIS
 Basic Authentication is enabled with username and password
 
 ![Basic Auth](https://user-images.githubusercontent.com/19408564/33527145-8002656c-d871-11e7-8166-14f5450600e6.png "Basic Auth")
+
+
+Dependencies:
+
+1. Django 
+2. TastyPie - For REST API creation
