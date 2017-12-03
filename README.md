@@ -12,10 +12,21 @@ URLs
 2. http://127.0.0.1:8000/admin
 
 APIS
-1. http://127.0.0.1:8000/api/v1/node/ - list all the nodes
-2. http://127.0.0.1:8000/api/v1/node/1/ - details of node with id = 1
-3. http://127.0.0.1:8000/api/v1/transaction/ - lists all the transactions
-4. http://127.0.0.1:8000/api/v1/transaction/1/ - details of transaction with id = 1
+1. GET http://127.0.0.1:8000/api/v1/node/ - list all the nodes
+2. GET http://127.0.0.1:8000/api/v1/node/1/ - details of node with id = 1
+3. GET http://127.0.0.1:8000/api/v1/transaction/ - lists all the transactions
+4. GET http://127.0.0.1:8000/api/v1/transaction/1/ - details of transaction with id = 1
+5. POST http://127.0.0.1:8000/api/v1/transaction/ - Create a transaction 
+   request body is 
+   ```
+   {
+     "amount": 100.00,
+     "from": "Node_1",
+     "to": "Node_3"
+   }
+   ```
+
 
 Basic Authentication is enabled with username and password
 
+![Basic Auth](https://user-images.githubusercontent.com/19408564/33527145-8002656c-d871-11e7-8166-14f5450600e6.png "Basic Auth")
