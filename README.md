@@ -12,11 +12,13 @@ URLs
 2. http://127.0.0.1:8000/admin
 
 APIS
-1. GET http://127.0.0.1:8000/api/v1/node/ - list all the nodes
-2. GET http://127.0.0.1:8000/api/v1/node/1/ - details of node with id = 1
-3. GET http://127.0.0.1:8000/api/v1/transaction/ - lists all the transactions
-4. GET http://127.0.0.1:8000/api/v1/transaction/1/ - details of transaction with id = 1
+1. GET http://127.0.0.1:8000/api/v1/node/ - List all the nodes
+2. GET http://127.0.0.1:8000/api/v1/node/1/ - Details of node with id = 1
+3. GET http://127.0.0.1:8000/api/v1/transaction/ - List all the transactions
+4. GET http://127.0.0.1:8000/api/v1/transaction/1/ - Details of transaction with id = 1
 5. POST http://127.0.0.1:8000/api/v1/transaction/ - Create a transaction 
+   
+   
    request body is 
    ```
    {
