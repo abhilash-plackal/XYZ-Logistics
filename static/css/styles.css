@@ -1,0 +1,19 @@
+/* Login Box */
+#login-box {
+    border: 1px solid cadetblue; 
+    width: 210px; 
+    padding: 8px 30px;
+}
+
+/* Home Page */
+body{
+  	font-family: roboto;
+}
+
+#sidebar {
+	padding: 30px;
+}
+
+#nodes-table{
+	width:50%;
+}

@@ -1,0 +1,12 @@
+{% block content %}
+	<div id="login-box" style="border: 1px solid cadetblue; width: 210px; padding: 8px 30px; box-shadow: 0 10px 16px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19); position: fixed; top: 50%; left: 50%; transform: translate(-50%, -50%);">
+		<h3>Login to Your Account</h3>
+	  	<form method="post">
+		  {% csrf_token %}
+		  {{ form.as_p }}
+		  <button type="submit" class="btn-primary">Login</button>
+		</form>
+	</div>
+{% endblock %}
+
+ 
